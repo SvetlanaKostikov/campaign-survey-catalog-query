@@ -1,4 +1,4 @@
-package com.crowdsourcing.campaign.survey.catalog.actualization.application.config;
+package com.crowdsourcing.campaign.survey.catalog.application.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;

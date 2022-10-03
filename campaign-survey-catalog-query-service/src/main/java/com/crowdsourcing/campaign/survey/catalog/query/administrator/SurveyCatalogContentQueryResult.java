@@ -9,12 +9,12 @@ import java.util.List;
 @NoArgsConstructor
 @Getter
 public class SurveyCatalogContentQueryResult {
-    List<SurveyCatalogContentQueryResultRow> survey_passports;
+    List<SurveyCatalogContentQueryResultRow> surveyPassports;
 
     public SurveyCatalogContentQueryResult(List<SurveyCatalogContentQueryResultRow> rows) {
-        survey_passports = new ArrayList<>();
+        surveyPassports = new ArrayList<>();
         for(SurveyCatalogContentQueryResultRow row:rows) {
-            survey_passports.add(row);
+            surveyPassports.add(row);
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.crowdsourcing.campaign.survey.catalog.actualization.application.config;
+package com.crowdsourcing.campaign.survey.catalog.application.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
